@@ -1,4 +1,4 @@
-# 💜 Pockit — Make Every Rupee Count.
+# Pockit — Make Every Rupee Count.
 
 <p align="center">
   <strong>Your money. Your goals. Your control.</strong>
