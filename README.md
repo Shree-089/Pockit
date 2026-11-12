@@ -6,15 +6,6 @@
   An AI-powered financial companion built to help students budget smarter, understand spending habits, and make more confident financial decisions.
 </p>
 
-<p align="center">
-  <img src="client/src/assets/hero.png" alt="Pockit" width="800"/>
-</p>
-
-<p align="center">
-  <strong>Built with React · Node.js · PostgreSQL · Nebius AI · PayPal Sandbox</strong>
-</p>
-
----
 
 ## ✨ The Idea
 
