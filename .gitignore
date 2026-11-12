@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Local backups and temporary files
+backup/
+backups/
+*.save
+*.backup

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/*
+ * POCKIT DESIGN TOKENS
+ * In Tailwind v4, the theme lives in CSS (no tailwind.config.js).
+ * Every variable below becomes a utility class automatically:
+ *   --color-indigo  ->  bg-indigo, text-indigo, border-indigo ...
+ *   --font-heading  ->  font-heading
+ *   --shadow-card   ->  shadow-card
+ */
+@theme {
+  /* Brand */
+  --color-indigo: #252b68;   /* primary actions */
+  --color-royal: #4169e1;    /* interactive elements, links */
+  --color-lavender: #a78bfa; /* AI-related accents */
+  --color-violet-soft: #ede9fe; /* AI card backgrounds */
+
+  /* Surfaces */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-line: #e7eaf0;
+
+  /* Status */
+  --color-success: #16a085;
+  --color-warning: #e99a45;
+  --color-error: #dc5656;
+
+  /* Text */
+  --color-ink: #20243a;   /* primary text */
+  --color-muted: #73788c; /* secondary text */
+
+  /* Typography */
+  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Shape & depth */
+  --radius-card: 1.25rem;
+  --shadow-card: 0 1px 2px rgb(32 36 58 / 0.04), 0 4px 16px rgb(32 36 58 / 0.06);
+  --shadow-nav: 0 -4px 20px rgb(32 36 58 / 0.06);
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-bg font-sans text-ink antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading tracking-tight;
+  }
+}

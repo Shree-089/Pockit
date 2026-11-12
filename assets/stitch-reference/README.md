@@ -1,0 +1,1 @@
+Place exported Stitch screenshots here for reference. Do not commit private user data or credentials.
